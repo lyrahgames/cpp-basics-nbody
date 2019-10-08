@@ -1,0 +1,10 @@
+: 1
+name: nbody
+version: 0.1.0-a.0.z
+summary: nbody C++ executable
+license: MIT
+description-file: README.md
+url: https://github.com/lyrahgames/cpp-basics-nbody
+email: markuspawellek@gmail.com
+depends: * build2 >= 0.10.0
+depends: * bpkg >= 0.10.0
