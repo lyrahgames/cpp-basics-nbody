@@ -1,7 +1,7 @@
 #include <application.hpp>
 
 application::application(const std::string& file_path)
-    : window(sf::VideoMode(screen_width, screen_height), "Fractal Render") {
+    : window(sf::VideoMode(screen_width, screen_height), "N-Body Simulation") {
   window.setVerticalSyncEnabled(true);
   resize();
   load(ps, file_path);

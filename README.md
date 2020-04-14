@@ -57,9 +57,14 @@ From here on, open your editor inside the directory and look at the code and sta
 
 ## Usage
 Call the program with an appropriate configuration file.
-An example can be found in the source folder with the name `test-system.txt`.
 
     ./nbody <configuration file>
+
+An example can be found in the source folder with the name `test-system.txt`.
+Depending on your current, one of the following calls should start the application with the example configuration file.
+
+    nbody/nbody nbody/test-system.txt
+    ./nbody test-system.txt
 
 - Left Mouse: Move the origin.
 - Mouse Wheel: Zoom in and out.
